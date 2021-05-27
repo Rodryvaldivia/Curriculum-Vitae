@@ -11,25 +11,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
         <nav class="header__nav">
             <ul class="header__ul">
-                <a href="">P O R T A F O L I O </a>
-                <a href="">E X P E R I E N C I A </a>
-                <a href="">S O B R E M I </a>
+                <a href=""><b>portfolio</b></a>
+                <a href=""><b>experiences</b></a>
+                <a href="#aboutme"><b>about me</b></a>
             </ul>
         </nav>
     </header>
     <div class="card">
         <div class="card1">
-            <div class="div__img">
-             <img src="piccv2.jpeg" alt="">
+            <div class="card__img" id="aboutme">
+                <img src="piccv.png.jpeg" alt="" class="card__img__pic">
             </div>
             <h2 class="card__h2">about me</h2>
-            <p class="card__p">22 years old / </p>
+            <p class="card__p"><i><b>22 years old / Escorpio / Developer </b></i></p>
+            <p class="card__description">Developer, passionate about technology and advancement in user experiences. Computer and network security student. Creativity is the pillar in my life</p>
+            <div class="card__divbar"></div>
+            
+            <div class="card__service1">
+                <h3 class="card__service__title">my services</h3>
+                <div class="card__service1-1">
+                    <a href="#development"><i class="fas fa-desktop"></i></a>
+                    <h3 class="card__titleserv"><b>development</b></h3>
+                    <p>I build your website with the technical specifications you need</p>
+                </div>
+                <div class="card__service1-2">
+                    <i class="fas fa-rocket"></i>
+                    <h3 class="card__titleserv"><b>seo optimization</b></h3>
+                    <p>I apply different organic positioning techniques to your website</p>
+                </div><br>
+                <div class="card__service1-3">
+                    <i class="fas fa-video"></i>
+                    <h3 class="card__titleserv"><b>video editing</b></h3>
+                    <p>I edit videos professionally to give you the style you want</p>
+                </div>
+                <div class="card__service1-4">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3 class="card__titleserv"><b>digital marketing</b></h3>
+                    <p>I improve brands applying different techniques of digital marketing and branding</p>
+                </div>
+                
+                <div class="card__divbar"></div>
+                <div class="info-arrow">
+                    <p class="info-arrow__p"><b>personal information</b></p>
+                    <a href="#card3__personalinfo"><i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
         </div>
+        
+    </div>
+    <div class="card2" id="development">
+        <div class="card2__img">
+            <img src="codepic2.jpg" alt="">
+        </div>
+        <div class="card2__info">
+            <h2 class="card2__h2">development</h2>
+            <p class="card2__p1"><b>web developer</b></p>
+            <p class="card2__p2">my knowledge is based on frontend web development, having as main tools HTML, CSS and JavaScript. I build your website with the specifications required by the client, from responsive to interactive design</p>
+        </div>
+        <div class="card2__icons">
+            <i class="fab fa-html5" id="html"></i>
+            <i class="fab fa-css3" id="css"></i>
+            <i class="fab fa-js" id="js"></i>
+        </div>
+        <div class="card2__alink">
+            <a href="#" class="card2__link"><b>portfolio</b></a>
+        </div>
+    </div>
+    <div id="card3__personalinfo">
+        <h2 class="card3__personalinfo__h2">personal information</h2>
+        <h3 class="card3__personalinfo__h3"><b>Rodrigo Valdivia</b></h3>
     </div>
 </body>
 </html>
